@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+
+  fetchAllCategory(){
+  }
+
+  src = '../images/more-from-1.png';
+  title = 'Get going on Android';
+  body = 'Four tips to make your switch to Android quick and easy';
 }
